@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Nanum+Myeongjo&display=swap');
+html{
+  background:#1c242c !important;
+}
+body{
+  background:#1c242c !important;
+}
+
+.MuiPaper-root{
+  background: #303d48 !important;
+}
+.App {
+  text-align: center;
+}
+
+.title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 78px;
+  text-align: start;
+  line-height: 69%;
+  margin-bottom:10%;
+}
+
+.titlesub{
+  font-size: 40px;
+}
+
+.sub-heading{
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+}
+
+.flowchart{
+  width:100%;
+}
+
+.content {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
+  text-align: start;
+}
+
+.quote {
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: start;
+  margin-bottom:-2%;
+}
+
+.footer {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
